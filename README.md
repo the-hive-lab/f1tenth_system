@@ -45,9 +45,9 @@ We built this code from the [`f1tenth_system`](https://github.com/f1tenth/f1tent
    ```shell
    $ ros2 launch f1tenth_core drive_launch.py 
    ```
-This file will launch all of your nodes for the VESC, Hokuyo LiDAR, and basic `tf`. To control vehicle with a joystick, you will need to launch the`joy_teleop` package. A launch file and a custom `joy_teleop.yaml` for parameters is provided on the `f1tenth_core` package. To bring up the joystick nodes:
+This file will launch all of your nodes for the VESC, Hokuyo LiDAR, and basic `tf`. To control the vehicle with a joystick, you will need to launch the`joy_teleop` package. A launch file and a custom `joy_teleop.yaml` for parameters is provided on the `f1tenth_core` package. To bring up the joystick nodes:
 
-    ```shell
+   ```shell
    $ ros2 launch f1tenth_core joy_launch.py
    ```
 The joysticks nodes can run on the vehicle or from your workstation. Make sure you have the same `ROS_DOMAIN_ID` accross your workstation and vehicle to allow communications between nodes.

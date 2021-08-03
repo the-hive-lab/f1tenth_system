@@ -31,7 +31,7 @@ We built this code from the [`f1tenth_system`](https://github.com/f1tenth/f1tent
    $ colcon build --packages-up-to <name-of-pkg>
    ```
 
-5. Source you install directory:
+5. Source your install directory:
    ```shell
    $ source install/setup.bash
    ```

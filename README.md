@@ -50,4 +50,4 @@ This file will launch all of your nodes for the VESC, Hokuyo LiDAR, and basic `t
    ```shell
    $ ros2 launch f1tenth_core joy_launch.py
    ```
-The joysticks nodes can run on the vehicle or from your workstation. Make sure you have the same `ROS_DOMAIN_ID` accross your workstation and vehicle to allow communications between nodes.
+The joysticks nodes can run on the vehicle or from your workstation. Make sure you have the same `ROS_DOMAIN_ID` across your workstation and vehicle to allow communications between nodes.
